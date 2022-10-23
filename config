@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "git-demo"]
+	url = https://github.com/Tureling/git-demo.git
+	fetch = +refs/heads/*:refs/remotes/git-demo/*
+[gui]
+	wmstate = normal
+	geometry = 1204x667+148+148 276 303
